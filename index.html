@@ -1,9 +1,14 @@
+<!-- This one is for indicating that it is html 5 -->
 <!DOCTYPE html>
+<!-- For the default language as english -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- View port tell us that the code is responsive mean that it can transform according to the device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for using a tab logo as "web.png"-->
     <link rel="shortcut icon" href="Web.png" type="image/x-icon" />
+    <!-- For  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -11,31 +16,63 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- For the title of the web page which is after the favicon in the tab  -->
     <title>My first webpage</title>
   </head>
+  <header>
+    <pre>
+      <p> <u>Home</u>   <u>view</u>   <u>contacts</u>    <u>Dark_mode</u>  <u>projects</u>    <u>Experience</u>    <u>Education</u> <hr></p>
+    </pre>
+  </header>
   <body>
-    <h1>Introducing ME</h1>
+    <!-- Head of the web page  -->
+    <h1><u>Introducing ME</u></h1>
+    <!-- <P>  tag for writing a paragraph lorem_Numbers of word you want -->
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto corrupti
-      commodi assumenda. Possimus totam officiis incidunt explicabo iste vitae
-      qui inventore, dicta eveniet eaque autem, consectetur laudantium modi,
-      deserunt temporibus minus beatae. Quia excepturi eaque facilis labore
-      soluta atque delectus odio quos cum ipsa? Tempore sit officiis illum
-      soluta aperiam error labore repellendus et vero culpa, voluptatem,
-      corporis ipsam porro explicabo beatae eos inventore consectetur delectus
-      ut perferendis amet! Architecto repellendus dolore eius ipsa non nostrum
-      nobis repellat? Recusandae sint, asperiores sit eius obcaecati quis
-      dolores accusantium harum. Odit sequi praesentium accusantium ab saepe
-      fuga voluptatum rerum aspernatur consequatur alias?
+      My name is Niraj kumar chaudhary. I am currently student at siddhanath
+      science campus. I choose the the Bsc.CSIT(Bachelor in computer science and
+      information technology) field for my currier. This is my second year and
+      4th semester. My village name is Bajarahi guthi which is located at
+      nepal,sagarmatha zone, saptari district ,khadak nagarpalika-09.
     </p>
+    <hr />
+    <!-- Form for getting detail about any page users -->
     <form action="">
-      Usere_name <input type="text" /> <br />password
-      <input type="password" /><br /><button>
-        submit<i class="fa-solid fa-arrow-right"></i>
-      </button>
+      <p><u>Enter the details for registration:</u></p> 
+      <!-- <br> tag can be used to take password in the other line for displaying -->
+      <pre>User_name <input type="text" placeholder="Enter user name"/>    password <input type="password" placeholder="Enter password" />    <button>submit<i class="fa-solid fa-arrow-right"></i></button></pre>
+      <label for="101"><input type="radio" value="M" name="Gender" id="101"> M</label>
+      <label for="102"><input type="radio" value="F" name="Gender" id="102">F</label>
+      <label for="103"><input type="radio" value="others" name="Gender" id="103"> others</label>
+      <!-- button tag for adding button to the form and "submit" text to add text to the button and class for adding arrow in the box -->
+    <hr>
+      <h5><u>Check the Main subjects you pursue:</u></h5>
+      <label for="104"> <input type="checkbox" value="Mathematics" name = "subject" id="104"> Mathematics</label>
+      <label for="105"> <input type="checkbox" value="Physics" name = "subject" id="105"> Physics</label>
+      <label for="106"> <input type="checkbox" value="Biology" name = "subject" id="106"> Biology</label>
+      <label for="107"> <input type="checkbox" value="computer" name = "subject" id="107"> Computer</label>
+
+      <hr> 
+<p>Enter the you belongs to:</p>
+<select name="city" id="city">
+<option value="--select one--"> --select one-- </option>
+<option value="KTM">KTM</option>
+<option value="MNR">MNR</option>
+<option value="Biratnagar">Biratnagar</option>
+<option value="Pokhara">Pokhara</option>
+<option value="kalyanpur">kalyanpur</option>
+
+<!-- Not working -->
+<hr>
+<input type="submit" value="submit">
     </form>
+    <hr />
+    <!-- Table tag for adding table to the web page "border = numbers for adding depth to the table" -->
     <table border="11">
+      <caption><b><i><u>Employee information</u></i></b></caption>
+      <!-- <tr> tag fro adding the table row  -->
       <tr>
+        <!-- <th> tag for adding the header cells in the table  -->
         <th>ID</th>
         <th>Name</th>
         <th>Salary</th>
@@ -56,10 +93,38 @@
         <td>$2.0000</td>
       </tr>
     </table>
-
-    <a href="https://facebook.com"
-      ><img src="Numbers.jpg" alt="image not Found" />
+    <hr />
+    <!-- iframe tag used: just copy the share link from the youtube and youtube will be functional for that video -->
+    <p>    This is direct from youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=yGUjLnyllfakRZ9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/" frameborder="0"></iframe>
+    <iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
+    <iframe src="https://nepaliquery.xyz/" height="1000px" width="1000px" frameborder="0"></iframe>
+    <hr>
+    <p>This is from laptop:</p>
+    <video width="560" height="312" src="/Dance in college.mp4" controls loop   ></video>
+    <hr>
+    <video width="560" height="312" src="/college_video2.mp4"controls loop ></video>
+    <hr> 
+    <!-- <a> tag for redirecting the user after clicking in the image in the web page -->
+      
+      <p>This will leads you to facebook login page</p>
+    <a href="https://facebook.com">
+      <!-- <img> tag for adding the image and alt="Image not found" if the image is missing -->
+      <img src="/Numbers.jpg" height="100" width="100" alt="image not Found" />
+      <br />
+      <hr />
     </a>
-    <a href="https://github.com"><img src="Web.png" alt="Out of box" /></a>
+     <p>This will leads you to github login page</p>
+    <a href="https://github.com"
+      ><img src="/Web.png" height="100" width="100" alt="Out of box"
+    /></a>
+    <a href="/Experience.html"></a>
+    <a href="/education.html"></a>
+    <br>
+<textarea name="Feedback" id="108" placeholder="Please Enter your valuable Feedback"></textarea>
+    <footer>
+      <h5>contact me at <u>https://niraj.com</u></h5>
+    </footer>
   </body>
 </html>
